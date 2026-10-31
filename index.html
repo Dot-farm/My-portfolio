@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f17">
+  <meta name="description" content="Bildad Chiedozie's developer portfolio — learning, building, and exploring useful technology.">
+  <title>Bildad Chiedozie — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="Bildad home"><span class="brand-mark">b<span>.</span></span><span class="brand-copy"><strong>Bildad Chiedozie</strong><small><i class="status-dot"></i> STUDENT · DEVELOPER IN PROGRESS</small></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot pulse"></span> BUILDING MY NEXT CHAPTER</div>
+        <h1 id="hero-title">Curious mind.<br><span class="gradient-text">Practical builder.</span></h1>
+        <p class="hero-name">I'm Bildad Chiedozie.</p>
+        <p class="hero-description">A university student exploring software development, Python, AI, data, and Linux — one useful project at a time. I’m learning by building things that solve real problems.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my projects <span>↗</span></a><a class="button button-secondary" href="#contact"><span class="button-icon">✉</span> Get in touch</a></div>
+        <div class="hero-meta panel"><div><span class="meta-icon violet">⌘</span><span><small>FOCUS</small><strong>Python · AI · Web</strong></span></div><div><span class="meta-icon cyan">⌖</span><span><small>BASED IN</small><strong>Nigeria</strong></span></div><div><span class="meta-icon blue">↗</span><span><small>APPROACH</small><strong>Learn by building</strong></span></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer terminal illustration">
+        <div class="orb orb-violet"></div><div class="orb orb-cyan"></div>
+        <div class="terminal panel"><div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>bildad@workspace ~</span><button id="copy-command" class="copy-button" aria-label="Copy terminal command" title="Copy command">⧉</button></div>
+          <div class="terminal-body"><p><span class="terminal-muted">01</span> <span class="code-purple">const</span> developer = {</p><p><span class="terminal-muted">02</span> &nbsp; name: <span class="code-cyan">"Bildad"</span>,</p><p><span class="terminal-muted">03</span> &nbsp; learning: [</p><p><span class="terminal-muted">04</span> &nbsp;&nbsp; <span class="code-green">"Python"</span>, <span class="code-green">"AI/ML"</span>,</p><p><span class="terminal-muted">05</span> &nbsp;&nbsp; <span class="code-green">"Linux"</span>, <span class="code-green">"Web"</span></p><p><span class="terminal-muted">06</span> &nbsp; ],</p><p><span class="terminal-muted">07</span> &nbsp; mindset: <span class="code-cyan">"keep building"</span></p><p><span class="terminal-muted">08</span> };</p><p class="terminal-prompt"><span>➜</span> <span class="code-purple">npm</span> run learn <b class="cursor">_</b></p></div>
+          <div class="terminal-footer"><span><i class="status-dot"></i> learning in public</span><span>UTF-8 · JavaScript</span></div>
+        </div>
+        <div class="float-chip chip-python"><span>Py</span><div><strong>Python</strong><small>Exploring</small></div></div><div class="float-chip chip-ai"><span>✳</span><div><strong>AI & data</strong><small>Curious about it</small></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading"><span class="section-kicker">// 01. BACKGROUND</span><h2>A little about <span class="gradient-text">me.</span></h2><p>Technology is most exciting when it turns a difficult problem into something people can actually use.</p></div>
+      <div class="about-grid"><article class="about-card panel"><span class="card-index">01 / WHO I AM</span><h3>A student with a builder’s mindset.</h3><p>I’m currently developing my foundations in programming while studying at university. I’m not trying to know everything at once; I’m focused on understanding the basics well, shipping small projects, and improving with every iteration.</p><p>My long-term interests sit around Python, AI/ML, data science, Linux, and software engineering.</p></article><div class="principles"><article class="principle panel"><span class="principle-icon cyan">⌁</span><div><h3>Curiosity first</h3><p>I like understanding how tools work, not only how to use them.</p></div></article><article class="principle panel"><span class="principle-icon violet">▤</span><div><h3>Useful over flashy</h3><p>I’m drawn to practical projects that solve a clear problem.</p></div></article><article class="principle panel"><span class="principle-icon blue">↻</span><div><h3>Progress through practice</h3><p>Build, test, learn what broke, and make the next version better.</p></div></article></div></div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><span class="section-kicker">// 02. CURRENT TOOLKIT</span><h2>Skills I’m <span class="gradient-text">growing.</span></h2><p>This is a learning roadmap, not a claim of expert-level experience. I’ll update it as I gain practical experience.</p></div>
+      <div class="skills-grid"><article class="skill-card panel"><div class="skill-card-title"><span class="skill-symbol violet">{ }</span><div><h3>Programming</h3><small>FOUNDATIONS</small></div></div><div class="tag-list"><span>Python</span><span>JavaScript</span><span>Problem solving</span></div><div class="skill-meter"><span style="width:48%"></span></div><small class="skill-note">Building the fundamentals</small></article><article class="skill-card panel"><div class="skill-card-title"><span class="skill-symbol cyan">⌘</span><div><h3>Web development</h3><small>BUILDING BLOCKS</small></div></div><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>APIs</span></div><div class="skill-meter"><span style="width:42%"></span></div><small class="skill-note">Creating small web projects</small></article><article class="skill-card panel"><div class="skill-card-title"><span class="skill-symbol blue">✳</span><div><h3>AI & data</h3><small>EXPLORING</small></div></div><div class="tag-list"><span>AI tools</span><span>Machine learning</span><span>Data science</span></div><div class="skill-meter"><span style="width:22%"></span></div><small class="skill-note">Early exploration</small></article><article class="skill-card panel"><div class="skill-card-title"><span class="skill-symbol green">▣</span><div><h3>Systems & workflow</h3><small>IN PROGRESS</small></div></div><div class="tag-list"><span>Linux</span><span>Git / GitHub</span><span>Command line</span></div><div class="skill-meter"><span style="width:28%"></span></div><small class="skill-note">Learning through practice</small></article></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading section-heading-row"><div><span class="section-kicker">// 03. SELECTED WORK</span><h2>Ideas becoming <span class="gradient-text">projects.</span></h2><p>Some are concepts or works in progress. I’ll link live demos and repositories when they’re ready.</p></div><div class="project-filters" role="group" aria-label="Filter projects"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="web">Web</button><button class="filter-button" data-filter="concept">Concepts</button></div></div>
+      <div class="projects-grid" id="projects-grid">
+        <article class="project-card panel" data-category="web"><div class="project-art route-art"><div class="map-lines"></div><div class="map-pin pin-one">●</div><div class="map-pin pin-two">●</div><div class="route-card-mini"><small>ROUTE SUGGESTION</small><strong>Ikorodu → Yaba</strong><span>Example journey · concept UI</span></div><span class="art-label">01 / LOCAL UTILITY</span></div><div class="project-content"><div class="project-meta"><span>WEB APP</span><span class="status-pill"><i></i> CONCEPT</span></div><h3>Lagos Route Helper</h3><p>A simple route discovery idea to help people find useful major bus stops and understand possible directions around Lagos.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>JSON / APIs</span></div><div class="project-actions"><a href="#contact" class="text-link">Discuss the idea <span>↗</span></a><span class="project-state">In planning</span></div></div></article>
+        <article class="project-card panel" data-category="web"><div class="project-art radio-art"><div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="radio-display"><span class="radio-live"><i></i> ON AIR</span><strong>PRECISION<br>RADIO</strong><small>Sound that keeps you connected.</small><div class="radio-wave">〰 〰 〰 〰</div></div><span class="art-label">02 / MEDIA EXPERIENCE</span></div><div class="project-content"><div class="project-meta"><span>WEBSITE</span><span class="status-pill"><i></i> IN PROGRESS</span></div><h3>Precision Radio</h3><p>A website concept for a radio station, with a clear listening experience and a foundation designed to grow with its audience.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Audio UX</span></div><div class="project-actions"><a href="#contact" class="text-link">Ask about this project <span>↗</span></a><span class="project-state">Building</span></div></div></article>
+        <article class="project-card panel" data-category="concept"><div class="project-art matrix-art"><div class="matrix-grid" aria-hidden="true"></div><div class="matrix-word"><span class="matrix-symbol">M</span><strong>MATRIX</strong><small>BETTER TECH. BRIGHTER TOMORROW.</small></div><span class="art-label">03 / FUTURE BRAND</span></div><div class="project-content"><div class="project-meta"><span>BRAND / TECH</span><span class="status-pill"><i></i> LONG-TERM IDEA</span></div><h3>MATRIX</h3><p>A future technology brand concept exploring software, AI, digital innovation, and approachable technology media.</p><div class="tag-list"><span>Brand concept</span><span>Technology</span><span>Future vision</span></div><div class="project-actions"><a href="#contact" class="text-link">Talk about the vision <span>↗</span></a><span class="project-state">Early concept</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-heading"><span class="section-kicker">// 04. THE ROAD AHEAD</span><h2>Small steps. <span class="gradient-text">Real progress.</span></h2><p>The path I’m working through — one layer at a time.</p></div>
+      <div class="timeline"><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">NOW · FOUNDATION</div><h3>Strengthen the basics</h3><p>Keep practicing Python and web fundamentals, understand the code I write, and build a steady learning routine around university.</p></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">NEXT · PROJECTS</div><h3>Build and publish small tools</h3><p>Turn practical ideas into working prototypes, document the process, and make the code easier for others to understand.</p></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">LATER · SPECIALIZATION</div><h3>Go deeper into AI, data, and Linux</h3><p>Build stronger technical foundations and choose deeper projects based on what I learn and enjoy most.</p></article></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-intro"><span class="section-kicker">// 05. LET’S CONNECT</span><h2>Have an idea?<br><span class="gradient-text">Let’s talk.</span></h2><p>I’m open to learning opportunities, thoughtful collaborations, feedback on my projects, and conversations about technology.</p><div class="contact-detail"><span class="contact-detail-icon">✉</span><div><small>EMAIL</small><strong id="email-text">YOUR_EMAIL@example.com</strong></div><button id="copy-email" class="copy-button" aria-label="Copy email address" title="Copy email address">⧉</button></div><p class="form-note">Replace the placeholder email in <code>script.js</code> and this page before publishing.</p></div>
+      <form class="contact-form panel" id="contact-form"><div class="form-heading"><span class="section-kicker">MESSAGE COMPOSER</span><span class="form-lock">↗ LOCAL EMAIL</span></div><label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" placeholder="What should I call you?" required><label for="contact-email">Your email</label><input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><label for="contact-topic">What’s this about?</label><select id="contact-topic" name="topic"><option>General hello</option><option>Project collaboration</option><option>Learning / career opportunity</option><option>Feedback on a project</option></select><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="4" placeholder="Tell me a little about it…" required></textarea><button class="button button-primary submit-button" type="submit">Prepare email <span>↗</span></button><p id="form-status" class="form-status" role="status" aria-live="polite">This form opens your email app; it does not send data to a server.</p></form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark">b<span>.</span></span><span class="brand-copy"><strong>Bildad Chiedozie</strong><small>LEARNING. BUILDING. ITERATING.</small></span></a><p>Designed with curiosity <span class="footer-heart">✳</span> and built with HTML, CSS & JavaScript.</p><a class="back-top" href="#top">Back to top ↑</a><span class="copyright">© <span id="year"></span></span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
